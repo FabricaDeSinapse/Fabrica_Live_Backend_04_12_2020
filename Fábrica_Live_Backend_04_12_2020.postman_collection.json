@@ -10,7 +10,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "localhost:3000/mensagens"
+				"url": "{{API_URL}}/mensagens"
 			},
 			"response": []
 		},
@@ -19,7 +19,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "localhost:3000/mensagens/2"
+				"url": "{{API_URL}}/mensagens/2"
 			},
 			"response": []
 		},
@@ -37,7 +37,7 @@
 						}
 					}
 				},
-				"url": "localhost:3000/mensagens"
+				"url": "{{API_URL}}/mensagens"
 			},
 			"response": []
 		},
@@ -55,7 +55,7 @@
 						}
 					}
 				},
-				"url": "localhost:3000/mensagens/3"
+				"url": "{{API_URL}}/mensagens/3"
 			},
 			"response": []
 		},
@@ -64,7 +64,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "localhost:3000/mensagens/2"
+				"url": "{{API_URL}}/mensagens/2"
 			},
 			"response": []
 		}
